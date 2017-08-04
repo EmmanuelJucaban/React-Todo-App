@@ -1,9 +1,13 @@
 import React, { Component } from 'react';
 
-class AppIndex extends Component {
+class PostsIndex extends Component {
   render() {
-    return (<div>React, bootstrap, redux, and webpack 3 boilerplate</div>);
+    return (
+      <div>
+        Posts Index
+      </div>
+    );
   }
 }
 
-export default AppIndex;
+export default PostsIndex;
