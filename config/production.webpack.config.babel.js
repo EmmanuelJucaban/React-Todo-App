@@ -6,9 +6,10 @@ import cleanWebpackPlugin from 'clean-webpack-plugin';
 import optimizeCssAssetsWebpackPlugin from 'optimize-css-assets-webpack-plugin';
 
 var VENDOR_LIBS = [
-  "bootstrap", "jquery", "react", "react-dom", "redux", "react-redux", "react-router-dom",
+  "axios", "bootstrap", "jquery", "react", "react-dom", "redux", "react-redux", "react-router-dom",
   "redux-form", "redux-promise"
 ];
+
 
 
 
