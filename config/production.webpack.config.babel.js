@@ -21,6 +21,7 @@ export default (env) => {
     },
     output: {
       path: path.resolve(__dirname, '..', 'build-production'),
+      publicPath: '/',
       filename: '[name].[chunkhash].bundle.js'
     },
     module: {
@@ -92,7 +93,6 @@ export default (env) => {
       alias: {
         actions: path.resolve(__dirname, '..', 'src/actions'),
         components: path.resolve(__dirname, '..', 'src/components'),
-        containers: path.resolve(__dirname, '..', 'src/containers'),
         styles: path.resolve(__dirname, '..', 'src/styles'),
         reducers: path.resolve(__dirname, '..', 'src/reducers')
       },
